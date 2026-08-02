@@ -1,0 +1,20 @@
+generated: '2026-07-21'
+method: searched
+source: live HTTP probes of https://www.threeflow.com/.well-known/*
+host: https://www.threeflow.com
+documents:
+  - path: /.well-known/security.txt
+    status: 404
+  - path: /.well-known/openid-configuration
+    status: 404
+  - path: /.well-known/oauth-authorization-server
+    status: 404
+  - path: /.well-known/api-catalog
+    status: 404
+  - path: /.well-known/ai-plugin.json
+    status: 404
+notes: >-
+  No /.well-known/ discovery documents are published on www.threeflow.com.
+  The site does publish /llms.txt (200, captured in llms/threeflow-llms.txt).
+  ThreeFlow's developer documentation (docs.threeflow.com) is password
+  protected, so no API discovery surface is publicly reachable.

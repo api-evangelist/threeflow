@@ -1,8 +1,27 @@
 aid: threeflow
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/threeflow.png
 name: ThreeFlow
-description: 'ThreeFlow is a company surfaced as a portfolio company of accel, emergence-capital and added
-  to the API Evangelist network as a stub for enrichment. Sector: enterprise. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: >-
+  ThreeFlow (WatchTower Technologies, Inc. dba ThreeFlow) is a benefits
+  placement system (BPS) for employee-benefits brokers and insurance carriers,
+  bringing quoting, RFPs, analysis, renewals, and presentation into one shared
+  workflow. Its ThreeFlow Connect integration layer automates placement data
+  flow across broker AMS, carrier, and partner systems. The platform reports
+  $3.7B+ premium under management, 450+ broker locations, and 75+ certified
+  carriers, and is SOC 2 Type 2 and HITRUST E1 certified. Developer
+  documentation is partner-gated; a public status page monitors the Broker
+  Portal, Carrier Portal, and API.
 url: https://raw.githubusercontent.com/api-evangelist/threeflow/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -13,10 +32,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
 - Enterprise
+- Insurance
+- Employee Benefits
+- Benefits Placement
+- Insurance Technology
+- Brokers
+- Carriers
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -26,3 +51,32 @@ maintainers:
 common:
 - type: Website
   url: https://www.threeflow.com/
+- type: DomainSecurity
+  url: security/threeflow-domain-security.yml
+- type: LLMsTxt
+  url: llms/threeflow-llms.txt
+- type: WellKnown
+  url: well-known/threeflow-well-known.yml
+- type: Lifecycle
+  url: lifecycle/threeflow-lifecycle.yml
+- type: StatusPage
+  url: https://status.threeflow.com/
+- type: TrustCenter
+  url: security/threeflow-trust-center.yml
+- type: Compliance
+  url: https://trust.threeflow.com/
+- type: Blog
+  url: https://www.threeflow.com/resources/blog
+- type: Support
+  url: https://www.threeflow.com/customer-experience
+- type: Login
+  url: https://broker.threeflow.com/
+- type: TermsOfService
+  url: https://www.iubenda.com/terms-and-conditions/11825817
+- type: PrivacyPolicy
+  url: https://www.iubenda.com/app/privacy-policy/11825817/legal
+x-enrichment:
+  date: '2026-07-21'
+  status: enriched
+  artifacts_added: 3
+  pass: local-v1

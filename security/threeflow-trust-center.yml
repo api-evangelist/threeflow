@@ -1,0 +1,24 @@
+generated: '2026-07-21'
+method: searched
+probe: true
+url: https://trust.threeflow.com/
+platform: Vanta Trust Center (served from assets.vanta.com)
+certifications:
+  - SOC 2 Type 2
+  - HITRUST E1
+security_practices:
+  - TLS 1.2 encryption in transit (up to 256-bit)
+  - AES-256 encryption at rest
+  - SAML SSO and enforced two-factor authentication controls
+  - Least-access data controls with audited access logging
+  - Automated scanning plus active third-party security audits
+  - Hosted on Amazon Web Services
+evidence:
+  - source: https://trust.threeflow.com/
+    kind: trust-center
+    detail: Vanta-hosted "ThreeFlow Trust Center" (HTTP 200)
+  - source: https://www.threeflow.com/platform/security
+    kind: security-page
+    detail: >-
+      "ThreeFlow is SOC 2 Type 2 certified. ThreeFlow is the only Benefits
+      Placement System with HITRUST E1 certification."
